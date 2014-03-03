@@ -1,0 +1,256 @@
+# Copyright (C) 2014 Hammas Calendar
+# This file is distributed under the same license as the Hammas Calendar package.
+msgid ""
+msgstr ""
+"Project-Id-Version: Hammas Calendar 1.2\n"
+"Report-Msgid-Bugs-To: http://wordpress.org/tag/hp-calendar\n"
+"POT-Creation-Date: 2013-10-10 10:19:55+00:00\n"
+"PO-Revision-Date: 2013-10-10 13:23+0200\n"
+"Last-Translator: Paul Eller <teren@inno.ee>\n"
+"Language-Team: Innovaatik Grupp OÜ <info@inno.ee>\n"
+"Language: ru\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 1.5.7\n"
+
+#: hp-calendar.php:18
+msgid "YOUR API_KEY"
+msgstr "ВАШ API КЛЮЧ"
+
+#: hp-calendar.php:19
+msgid "API HOST"
+msgstr "АДРЕС API"
+
+#: hp-calendar.php:23
+msgid "LINK TO YOUR LOGO"
+msgstr "ССЫЛКА НА ВАШЕ ЛОГО"
+
+#: hp-calendar.php:24
+msgid "YOUR COMPANY NAME"
+msgstr "НАЗВАНИЕ ВАШЕЙ ФИРМЫ"
+
+#: hp-calendar.php:152
+msgid "Hammas Calendar Options"
+msgstr "Настройки Hammas Calendar"
+
+#. #-#-#-#-#  hp-calendar.pot (Hammas Calendar 1.1)  #-#-#-#-#
+#. Plugin Name of the plugin/theme
+#: hp-calendar.php:152 hp-calendar.php:163
+msgid "Hammas Calendar"
+msgstr "Hammas Calendar"
+
+#: hp-calendar.php:157
+msgid "You do not have sufficient permissions to access this page."
+msgstr "У вас нет достаточно прав, чтобы иметь доступ к этой странице."
+
+#: hp-calendar.php:165
+msgid ""
+"Use the <strong>[hp-calendar clinics=\"1,2,ClinicName3,ClinicName4\"]</"
+"strong> shortcode to show the calendar (the clinics attribute allows you to "
+"choose which clinics are shown; use comma-separated clinic IDs or names) and "
+"&lt;a href=\"<strong>[hp-calendar-manage-url]</strong>\"&gt; to show a link "
+"to the appointment managing interface. Use the <strong>[hp-calendar-manage-"
+"redirect]</strong> shortcode to redirect the user to the appointment "
+"managing interface."
+msgstr ""
+"Используйте shortcode <strong>[hp-calendar clinics=\"1,2,Название Клиники 3,"
+"НазваниеКлиники4\"]</strong>, чтобы показать календарь (опция clinics — "
+"список ID или названий клиник, которые вы хотите использовать) и &lt;a href="
+"\"<strong>[hp-calendar-manage]</strong>\"&gt;, чтобы показать ссылку на "
+"страницу редактирования визитов. Используйте shortcode <strong>[hp-calendar-"
+"manage-redirect]</strong>, чтобы перенаправить пользователя на страницу "
+"редактирования визитов."
+
+#: hp-calendar.php:172
+msgid "API Key"
+msgstr "API ключ"
+
+#: hp-calendar.php:176 hp-calendar.php:185
+msgid "This can be found in the Manager->Web dialog in Hammas."
+msgstr "Это можно найти в программе Hammas, в окне Juhataja -> Veeb."
+
+#: hp-calendar.php:181
+msgid "API Host"
+msgstr "Адрес API"
+
+#: hp-calendar.php:190
+msgid "Company name"
+msgstr "Название фирмы"
+
+#: hp-calendar.php:194
+msgid "The name of your company which will be shown in the footer."
+msgstr "Название вашей фирмы будет показано в нижнем колонтитуле."
+
+#: hp-calendar.php:199
+msgid "Return URL"
+msgstr "URL возврата"
+
+#: hp-calendar.php:203
+msgid ""
+"This is the location where clients will be sent to after they finish booking/"
+"managing appointments."
+msgstr ""
+"Сюда будут направлены клиенты, когда они закончат бронировать или "
+"редактировать свои визиты."
+
+#: hp-calendar.php:208
+msgid "Homepage URL"
+msgstr "URL домашней страницы"
+
+#: hp-calendar.php:212
+msgid ""
+"This is where clients will be sent to when they click your logo in the "
+"header or your company name in the footer."
+msgstr ""
+"Сюда будут направлены клиенты, если они кликнут на ваше лого в верхнем "
+"колонтитуле или на название фирмы в нижнем."
+
+#: hp-calendar.php:217
+msgid "Manage URL"
+msgstr "URL редактирования визитов "
+
+#: hp-calendar.php:221
+msgid ""
+"Only change this if you have set up a better-looking rewrite or have created "
+"a page with the [hp-calendar-manage-redirect] shortcode."
+msgstr ""
+"Это можно менять только если вы настроили Rewrite или создали страницу с "
+"shortcode [hp-calendar-manage-redirect]."
+
+#: hp-calendar.php:226
+msgid "Logo URL"
+msgstr "URL лого"
+
+msgid "Language"
+msgstr "Язык"
+
+#: hp-calendar.php:230
+msgid ""
+"The location of your company logo which will be shown in the header "
+"(recommended height: 26px, will be scaled automatically)."
+msgstr ""
+"Ссылка на лого вашей фирмы, которое будет показано в верхнем колонтитуле "
+"(рекомендуемая высота: 26px, иные будут сжаты/растянуты)."
+
+#: hp-calendar.php:235
+msgid "Use default style"
+msgstr "Использовать стиль по-умолчанию"
+
+#: hp-calendar.php:239
+msgid "Untick this if you have a custom stylesheet for the calendar."
+msgstr "Отключите, если у вас готов свой собственный стиль для календаря."
+
+#: hp-calendar.php:251
+msgid "Settings"
+msgstr "Настройки"
+
+#. Description of the plugin/theme
+msgid "Hammas WordPress integration"
+msgstr "Интеграция Hammas и WordPress"
+
+#. Author of the plugin/theme
+msgid "Innovaatik Grupp OÜ"
+msgstr "Innovaatik Grupp OÜ"
+
+#. Author URI of the plugin/theme
+msgid "http://www.innovaatik.ee"
+msgstr "http://www.innovaatik.ee"
+
+#~ msgid "M,T,W,T,F,S,S"
+#~ msgstr "П,В,С,Ч,П,С,В"
+
+#~ msgid "January"
+#~ msgstr "Январь"
+
+#~ msgid "February"
+#~ msgstr "Февраль"
+
+#~ msgid "March"
+#~ msgstr "Март"
+
+#~ msgid "April"
+#~ msgstr "Апрель"
+
+#~ msgid "May"
+#~ msgstr "Май"
+
+#~ msgid "June"
+#~ msgstr "Июнь"
+
+#~ msgid "July"
+#~ msgstr "Июль"
+
+#~ msgid "August"
+#~ msgstr "Август"
+
+#~ msgid "September"
+#~ msgstr "Сентябрь"
+
+#~ msgid "October"
+#~ msgstr "Октябрь"
+
+#~ msgid "November"
+#~ msgstr "Ноябрь"
+
+#~ msgid "December"
+#~ msgstr "Декабрь"
+
+#~ msgid "Previous"
+#~ msgstr "Предыдущий"
+
+#~ msgid "Next"
+#~ msgstr "Следующий"
+
+#~ msgid "Book"
+#~ msgstr "Забронировать"
+
+#~ msgid "Loading..."
+#~ msgstr "Загружаю..."
+
+#~ msgid "All doctors"
+#~ msgstr "Все врачи"
+
+#~ msgid "No doctors"
+#~ msgstr "Нет врачей"
+
+#~ msgid ""
+#~ "The time you have selected has already been taken (or is being taken)"
+#~ msgstr "Время которое вы выбрали уже занято (или бронируется)"
+
+#~ msgid "Server error"
+#~ msgstr "Ошибка сервера"
+
+#~ msgid "No such time"
+#~ msgstr "Нет такого времени"
+
+#~ msgid "Sort"
+#~ msgstr "Сортировать"
+
+#~ msgid "by doctor"
+#~ msgstr "по врачам"
+
+#~ msgid "by time"
+#~ msgstr "по времени"
+
+#~ msgid "Orthodontics"
+#~ msgstr "Ортодонтия"
+
+#~ msgid "Dental Prosthetics"
+#~ msgstr "Протезирование"
+
+#~ msgid "Dental Care"
+#~ msgstr "Стоматология"
+
+#~ msgid "Maxillofacial surgery"
+#~ msgstr "Челюстно-лицевая хирургия "
+
+#~ msgid "Mouth hygiene"
+#~ msgstr "Гигиенист"
+
+#~ msgid "You need to get this key from Innovaatik for this plugin to work."
+#~ msgstr ""
+#~ "Вы должны получить этот ключ от Innovaatik, чтобы этот плагин заработал."
+
+#~ msgid "MTWTFSS"
+#~ msgstr "ПВСЧПСВ"

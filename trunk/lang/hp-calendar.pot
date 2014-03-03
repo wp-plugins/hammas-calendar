@@ -1,0 +1,138 @@
+# Copyright (C) 2014 Hammas Calendar
+# This file is distributed under the same license as the Hammas Calendar package.
+msgid ""
+msgstr ""
+"Project-Id-Version: Hammas Calendar 1.2\n"
+"Report-Msgid-Bugs-To: http://wordpress.org/tag/hp-calendar\n"
+"POT-Creation-Date: 2013-10-10 11:22:22+00:00\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"PO-Revision-Date: 2013-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+
+#: hp-calendar.php:18
+msgid "YOUR API_KEY"
+msgstr ""
+
+#: hp-calendar.php:19
+msgid "API HOST"
+msgstr ""
+
+#: hp-calendar.php:23
+msgid "LINK TO YOUR LOGO"
+msgstr ""
+
+#: hp-calendar.php:24
+msgid "YOUR COMPANY NAME"
+msgstr ""
+
+#: hp-calendar.php:152
+msgid "Hammas Calendar Options"
+msgstr ""
+
+#. #-#-#-#-#  hp-calendar.pot (Hammas Calendar 1.1)  #-#-#-#-#
+#. Plugin Name of the plugin/theme
+#: hp-calendar.php:152 hp-calendar.php:163
+msgid "Hammas Calendar"
+msgstr ""
+
+#: hp-calendar.php:157
+msgid "You do not have sufficient permissions to access this page."
+msgstr ""
+
+#: hp-calendar.php:165
+msgid ""
+"Use the <strong>[hp-calendar clinics=\"1,2,ClinicName3,ClinicName4\"]</"
+"strong> shortcode to show the calendar (the clinics attribute allows you to "
+"choose which clinics are shown; use comma-separated clinic IDs or names) and "
+"&lt;a href=\"<strong>[hp-calendar-manage-url]</strong>\"&gt; to show a link "
+"to the appointment managing interface. Use the <strong>[hp-calendar-manage-"
+"redirect]</strong> shortcode to redirect the user to the appointment "
+"managing interface."
+msgstr ""
+
+#: hp-calendar.php:172
+msgid "API Key"
+msgstr ""
+
+#: hp-calendar.php:176 hp-calendar.php:185
+msgid "This can be found in the Manager->Web dialog in Hammas."
+msgstr ""
+
+#: hp-calendar.php:181
+msgid "API Host"
+msgstr ""
+
+#: hp-calendar.php:190
+msgid "Company name"
+msgstr ""
+
+#: hp-calendar.php:194
+msgid "The name of your company which will be shown in the footer."
+msgstr ""
+
+#: hp-calendar.php:199
+msgid "Return URL"
+msgstr ""
+
+#: hp-calendar.php:203
+msgid ""
+"This is the location where clients will be sent to after they finish booking/"
+"managing appointments."
+msgstr ""
+
+#: hp-calendar.php:208
+msgid "Homepage URL"
+msgstr ""
+
+#: hp-calendar.php:212
+msgid ""
+"This is where clients will be sent to when they click your logo in the "
+"header or your company name in the footer."
+msgstr ""
+
+#: hp-calendar.php:217
+msgid "Manage URL"
+msgstr ""
+
+#: hp-calendar.php:221
+msgid ""
+"Only change this if you have set up a better-looking rewrite or have created "
+"a page with the [hp-calendar-manage-redirect] shortcode."
+msgstr ""
+
+#: hp-calendar.php:226
+msgid "Logo URL"
+msgstr ""
+
+#: hp-calendar.php:230
+msgid ""
+"The location of your company logo which will be shown in the header "
+"(recommended height: 26px, will be scaled automatically)."
+msgstr ""
+
+#: hp-calendar.php:235
+msgid "Use default style"
+msgstr ""
+
+#: hp-calendar.php:239
+msgid "Untick this if you have a custom stylesheet for the calendar."
+msgstr ""
+
+#: hp-calendar.php:251
+msgid "Settings"
+msgstr ""
+
+#. Description of the plugin/theme
+msgid "Hammas WordPress integration"
+msgstr ""
+
+#. Author of the plugin/theme
+msgid "Innovaatik Grupp OÜ"
+msgstr ""
+
+#. Author URI of the plugin/theme
+msgid "http://www.innovaatik.ee"
+msgstr ""
