@@ -31,8 +31,8 @@ Please visit [the official website](http://www.innomed.ee/)
 == Screenshots ==
 
 1. Main interface of online scheduling that will be displayed on the webpage. 
-2. Verification of appointment and identification page.
-3. Your appointment management page that allows to remove existing appointments. 
+1. Verification of appointment and identification page.
+1. Your appointment management page that allows to remove existing appointments. 
 
 == Changelog ==
 
