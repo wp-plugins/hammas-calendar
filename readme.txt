@@ -12,7 +12,7 @@ This plugin allows users of dental software Hammas to add online scheduling widg
 
 == Description ==
 
-Plugin allows web users to interact with dental software Hammas and add and delete appointments. Users are identified by 
+Plugin allows web users to interact with dental software Hammas to add and delete appointments. Users are identified by 
 using Estonian ID card or Estonian mobile-ID service. For more information about how to get start can be found from [the official website](http://www.innomed.ee/)
 
 == Installation ==
