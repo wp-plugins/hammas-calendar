@@ -1,0 +1,254 @@
+# Copyright (C) 2014 Hammas Calendar
+# This file is distributed under the same license as the Hammas Calendar package.
+msgid ""
+msgstr ""
+"Project-Id-Version: Hammas Calendar 1.2\n"
+"Report-Msgid-Bugs-To: http://wordpress.org/tag/hp-calendar\n"
+"POT-Creation-Date: 2013-10-10 11:22:22+00:00\n"
+"PO-Revision-Date: 2013-10-10 14:22+0200\n"
+"Last-Translator: Paul Eller <teren@inno.ee>\n"
+"Language-Team: Innovaatik Grupp OÜ <info@inno.ee>\n"
+"Language: et\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 1.5.7\n"
+
+#: hp-calendar.php:18
+msgid "YOUR API_KEY"
+msgstr "TEIE API VÕTI"
+
+#: hp-calendar.php:19
+msgid "API HOST"
+msgstr "API HOSTINIMI"
+
+#: hp-calendar.php:23
+msgid "LINK TO YOUR LOGO"
+msgstr "VIIDE TEIE LOGOLE"
+
+#: hp-calendar.php:24
+msgid "YOUR COMPANY NAME"
+msgstr "TEIE FIRMA NIMI"
+
+#: hp-calendar.php:152
+msgid "Hammas Calendar Options"
+msgstr "Hammas Calendar'i seaded"
+
+#. #-#-#-#-#  hp-calendar.pot (Hammas Calendar 1.1)  #-#-#-#-#
+#. Plugin Name of the plugin/theme
+#: hp-calendar.php:152 hp-calendar.php:163
+msgid "Hammas Calendar"
+msgstr "Hammas Calendar"
+
+#: hp-calendar.php:157
+msgid "You do not have sufficient permissions to access this page."
+msgstr "Te ei ole loa seda muuta"
+
+#: hp-calendar.php:165
+msgid ""
+"Use the <strong>[hp-calendar clinics=\"1,2,ClinicName3,ClinicName4\"]</"
+"strong> shortcode to show the calendar (the clinics attribute allows you to "
+"choose which clinics are shown; use comma-separated clinic IDs or names) and "
+"&lt;a href=\"<strong>[hp-calendar-manage-url]</strong>\"&gt; to show a link "
+"to the appointment managing interface. Use the <strong>[hp-calendar-manage-"
+"redirect]</strong> shortcode to redirect the user to the appointment "
+"managing interface."
+msgstr ""
+"Kasutage shortcode'i <strong>[hp-calendar clinics=\"1,2,KliinikuNimi3,"
+"Kliiniku Nimi 4\"]</strong>, et näidata kalendri (clinics on kliinikute "
+"ID'de või nimede nimekiri, mille abiga võite näidata ainult neid kliinikuid, "
+"mida soovite) ja &lt;a href=\"<strong>[hp-calendar-manage]</strong>\"&gt;, "
+"et näidata viidet visiitide halduse lehele. Kasutage shortcode'i <strong>[hp-"
+"calendar-manage-redirect]</strong>, et suunata kasutajat visiitide halduse "
+"lehele."
+
+#: hp-calendar.php:172
+msgid "API Key"
+msgstr "API võti"
+
+#: hp-calendar.php:176 hp-calendar.php:185
+msgid "This can be found in the Manager->Web dialog in Hammas."
+msgstr "Selle leiate \"Hambast\", paneelist Juhataja -> Veeb."
+
+#: hp-calendar.php:181
+msgid "API Host"
+msgstr "API hostinimi"
+
+#: hp-calendar.php:190
+msgid "Company name"
+msgstr "Firma nimi"
+
+#: hp-calendar.php:194
+msgid "The name of your company which will be shown in the footer."
+msgstr "Teie firma nime näidatakse jaluses."
+
+#: hp-calendar.php:199
+msgid "Return URL"
+msgstr "Tagasipöördumise URL"
+
+#: hp-calendar.php:203
+msgid ""
+"This is the location where clients will be sent to after they finish booking/"
+"managing appointments."
+msgstr "Siia saadetakse kliente, kui nad on lõpetanud broneerimist/haldust."
+
+#: hp-calendar.php:208
+msgid "Homepage URL"
+msgstr "Kodulehe URL"
+
+#: hp-calendar.php:212
+msgid ""
+"This is where clients will be sent to when they click your logo in the "
+"header or your company name in the footer."
+msgstr ""
+"Siia saadetakse kliente, kui nad klõpsuvad teie firma logod päises või firma "
+"nime jaluses."
+
+#: hp-calendar.php:217
+msgid "Manage URL"
+msgstr "Halduse URL"
+
+#: hp-calendar.php:221
+msgid ""
+"Only change this if you have set up a better-looking rewrite or have created "
+"a page with the [hp-calendar-manage-redirect] shortcode."
+msgstr ""
+"Ainult muudake seda, kui olete seadistanud Rewrite'i või olete loodud lehte "
+"shortcode'iga [hp-calendar-manage-redirect]."
+
+#: hp-calendar.php:226
+msgid "Logo URL"
+msgstr "Firma logo URL"
+
+msgid "Language"
+msgstr "Keel"
+
+#: hp-calendar.php:230
+msgid ""
+"The location of your company logo which will be shown in the header "
+"(recommended height: 26px, will be scaled automatically)."
+msgstr ""
+"Viide teie firma logole, mida näidatakse päises (soovitatav kõrgus: 26px, "
+"teisi suurusi skaleeritakse)."
+
+#: hp-calendar.php:235
+msgid "Use default style"
+msgstr "Kasuta vaikestiili"
+
+#: hp-calendar.php:239
+msgid "Untick this if you have a custom stylesheet for the calendar."
+msgstr "Võtke linnukese ära, kui teil on oma stiil valmis."
+
+#: hp-calendar.php:251
+msgid "Settings"
+msgstr "Seaded"
+
+#. Description of the plugin/theme
+msgid "Hammas WordPress integration"
+msgstr "Hammase integreerimine WordPress'ile"
+
+#. Author of the plugin/theme
+msgid "Innovaatik Grupp OÜ"
+msgstr "Innovaatik Grupp OÜ"
+
+#. Author URI of the plugin/theme
+msgid "http://www.innovaatik.ee"
+msgstr "http://www.innovaatik.ee"
+
+#~ msgid "M,T,W,T,F,S,S"
+#~ msgstr "E,T,K,N,R,L,P"
+
+#~ msgid "January"
+#~ msgstr "Jaanuar"
+
+#~ msgid "February"
+#~ msgstr "Veebruar"
+
+#~ msgid "March"
+#~ msgstr "Märts"
+
+#~ msgid "April"
+#~ msgstr "Aprill"
+
+#~ msgid "May"
+#~ msgstr "Mai"
+
+#~ msgid "June"
+#~ msgstr "Juuni"
+
+#~ msgid "July"
+#~ msgstr "Juuli"
+
+#~ msgid "August"
+#~ msgstr "August"
+
+#~ msgid "September"
+#~ msgstr "September"
+
+#~ msgid "October"
+#~ msgstr "Oktoober"
+
+#~ msgid "November"
+#~ msgstr "November"
+
+#~ msgid "December"
+#~ msgstr "Detsember"
+
+#~ msgid "Previous"
+#~ msgstr "Eelmine"
+
+#~ msgid "Next"
+#~ msgstr "Järgmine"
+
+#~ msgid "Book"
+#~ msgstr "Broneeri"
+
+#~ msgid "Loading..."
+#~ msgstr "Laen..."
+
+#~ msgid "All doctors"
+#~ msgstr "Kõik arstid"
+
+#~ msgid "No doctors"
+#~ msgstr "Ei ole võimalik broneerida"
+
+#~ msgid ""
+#~ "The time you have selected has already been taken (or is being taken)"
+#~ msgstr "Valitud aeg on juba broneeritud (või seda praegu broneeritakse)"
+
+#~ msgid "Server error"
+#~ msgstr "Serveri viga"
+
+#~ msgid "No such time"
+#~ msgstr "Niisugust aega ei ole"
+
+#~ msgid "Sort"
+#~ msgstr "Sorteerimine"
+
+#~ msgid "by doctor"
+#~ msgstr "arstid"
+
+#~ msgid "by time"
+#~ msgstr "ajad"
+
+#~ msgid "Orthodontics"
+#~ msgstr "Ortodontia"
+
+#~ msgid "Dental Prosthetics"
+#~ msgstr "Hambaproteesimine"
+
+#~ msgid "Dental Care"
+#~ msgstr "Hambaravi"
+
+#~ msgid "Maxillofacial surgery"
+#~ msgstr "Näo- ja lõualuukirurgia"
+
+#~ msgid "Mouth hygiene"
+#~ msgstr "Suuhügienist"
+
+#~ msgid "You need to get this key from Innovaatik for this plugin to work."
+#~ msgstr ""
+#~ "Te peate seda küsida Innovaatikust. Ilma võtita kalender ei hakka tööle."
+
+#~ msgid "MTWTFSS"
+#~ msgstr "ETKNRLP"
