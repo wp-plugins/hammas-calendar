@@ -36,7 +36,7 @@ Please visit [the official website](http://www.innomed.ee/)
 
 == Changelog ==
 
-= 1.2.1 = 
+= 1.3 = 
 * Compatibility update with new Wordpress 3.9
 
 = 1.2 =
