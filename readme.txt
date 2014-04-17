@@ -36,12 +36,12 @@ Please visit [the official website](http://www.innomed.ee/)
 
 == Changelog ==
 
+= 1.2.1 = 
+* Compatibility update with new Wordpress 3.9
+
 = 1.2 =
 * First version that's published in Wordpress repository.
 * Added option to force interface language if wordpress localization isn't used properly.
-
-= 1.2.1 = 
-* Compatibility update with new Wordpress 3.9
 
 == Upgrade Notice ==
 
