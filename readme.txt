@@ -3,8 +3,8 @@ Contributors:innovaatik
 Donate link: 
 Tags: hammas, innovaatik, dental software, dentist, online, scheduling
 Requires at least: 3.6.1
-Tested up to: 3.8.1
-Stable tag: 1.2
+Tested up to: 3.9
+Stable tag: 1.2.1
 License: GPLv2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
 
@@ -39,6 +39,9 @@ Please visit [the official website](http://www.innomed.ee/)
 = 1.2 =
 * First version that's published in Wordpress repository.
 * Added option to force interface language if wordpress localization isn't used properly.
+
+= 1.2.1 = 
+* Compatibility update with new Wordpress 3.9
 
 == Upgrade Notice ==
 
