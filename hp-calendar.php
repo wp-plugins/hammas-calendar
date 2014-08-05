@@ -2,7 +2,7 @@
 /* 
 Plugin Name: Hammas Calendar
 Description: Hammas WordPress integration
-Version: 1.2.2
+Version: 1.2.3
 Author: Innovaatik Grupp OÜ
 Author URI: http://www.innomed.ee
 
@@ -103,13 +103,14 @@ function HP_Calendar_registerScripts() {
 add_action('wp_ajax_hp_calendar_request', 'HP_Calendar_handleRequest');
 add_action('wp_ajax_nopriv_hp_calendar_request', 'HP_Calendar_handleRequest');
 function HP_Calendar_handleRequest() {
+  $host = get_option('hp_calendar_host');
   $request = array_merge($_POST, $_GET);
   $request['api_key'] = get_option('hp_calendar_api_key');
 
   if($request['request'] == 'redirect' || $request['request'] == 'manage') {
     $request['callback'] = get_option('hp_calendar_callback');
 	if(!get_option('hp_calendar_logo'))
-		$request['logo'] = 'https://ibron.innovaatik.ee/img/empty.png';
+		$request['logo'] = $host  . '/img/empty.png';
 	else  
 		$request['logo'] = get_option('hp_calendar_logo');
     $request['company'] = get_option('hp_calendar_company');
@@ -124,8 +125,6 @@ function HP_Calendar_handleRequest() {
   ));
 
   $context = stream_context_create($opts);
-
-  $host = get_option('hp_calendar_host');
 
   $result = file_get_contents($host . '/api', false, $context);
 
