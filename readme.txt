@@ -3,8 +3,8 @@ Contributors:innovaatik
 Donate link: 
 Tags: hammas, innovaatik, dental software, dentist, online, scheduling
 Requires at least: 3.6.1
-Tested up to: 3.9
-Stable tag: 1.2.3
+Tested up to: 4.0
+Stable tag: 1.2.4
 License: GPLv2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
 
@@ -35,6 +35,9 @@ Please visit [the official website](http://www.innomed.ee/)
 3. Your appointment management page that allows to remove existing appointments. 
 
 == Changelog ==
+= 1.2.4 =
+* Compatibility update for wordpress 4.0
+
 = 1.2.3 =
 * Minor internal code enhancement.
 
