@@ -2,7 +2,7 @@
 /* 
 Plugin Name: Hammas Calendar
 Description: Hammas WordPress integration
-Version: 1.2.5
+Version: 1.2.6
 Author: Innovaatik Grupp OÜ
 Author URI: http://www.innomed.ee
 
@@ -41,7 +41,8 @@ function HP_Calendar_deactivate() {
 
 add_shortcode('hp-calendar', 'HP_Calendar_display_calendar');
 function HP_Calendar_display_calendar($atts) {
-  ob_start();
+  HP_Calendar_registerScripts();
+  ob_start();  
   $atts = shortcode_atts(array(
 		'clinics' => ''
 	), $atts);
@@ -85,8 +86,9 @@ function HP_Calendar_init() {
 
   wp_register_style('HP_Calendar_style', $host . HP_CALENDAR_STYLE);
 }
-
-add_action('wp_enqueue_scripts', 'HP_Calendar_registerScripts');
+//This hook is deprecated since we only want to load booking scripts/styles 
+//when plugin is displayed. 
+//add_action('wp_enqueue_scripts', 'HP_Calendar_registerScripts');
 function HP_Calendar_registerScripts() {
   wp_enqueue_script('HP_Calendar_insert');
   $lang = get_option('hp_calendar_language') == 'auto' ? substr(get_bloginfo ( 'language' ), 0, 2) : get_option('hp_calendar_language');
