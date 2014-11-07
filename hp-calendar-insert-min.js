@@ -1,0 +1,1 @@
+(function(a){a(function(){a(".hp-calendar").each(function(){var b=a(this);b.HPCalendar({strings:HP_Calendar_data.strings,info_container:b.siblings(".hp-calendar-info"),api:HP_Calendar_data.ajaxurl,request_action:"hp_calendar_request",clinic_filter:b.data("clinics")||""})})})})(jQuery);

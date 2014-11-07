@@ -2,7 +2,7 @@
 /* 
 Plugin Name: Hammas Calendar
 Description: Hammas WordPress integration
-Version: 1.2.6
+Version: 1.2.7
 Author: Innovaatik Grupp OÜ
 Author URI: http://www.innomed.ee
 
@@ -10,8 +10,8 @@ Text Domain:   hp-calendar
 Domain Path:   /lang/
 */
 
-define('HP_CALENDAR_SCRIPT', '/js/hp-calendar.js'); 
-define('HP_CALENDAR_STYLE', '/css/hp-calendar.css'); 
+define('HP_CALENDAR_SCRIPT', '/js/hp-calendar-min.js'); 
+define('HP_CALENDAR_STYLE', '/css/hp-calendar-min.css'); 
 
 register_activation_hook(__FILE__, 'HP_Calendar_activate');
 function HP_Calendar_activate() {
@@ -81,7 +81,7 @@ function HP_Calendar_init() {
   $host = get_option('hp_calendar_host');
 
   wp_register_script('HP_Calendar', $host . HP_CALENDAR_SCRIPT, array('jquery'), null, true);
-  wp_register_script('HP_Calendar_insert', plugins_url('hp-calendar-insert.js', __FILE__),
+  wp_register_script('HP_Calendar_insert', plugins_url('hp-calendar-insert-min.js', __FILE__),
     array('jquery', 'HP_Calendar'), null, true);
 
   wp_register_style('HP_Calendar_style', $host . HP_CALENDAR_STYLE);
