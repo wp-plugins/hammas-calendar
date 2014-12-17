@@ -2,7 +2,7 @@
 /* 
 Plugin Name: Hammas Calendar
 Description: Hammas WordPress integration
-Version: 1.2.7
+Version: 1.2.8
 Author: Innovaatik Grupp OÜ
 Author URI: http://www.innomed.ee
 
