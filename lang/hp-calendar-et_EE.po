@@ -2,14 +2,14 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Hammas Calendar v1.2.8\n"
 "Report-Msgid-Bugs-To: http://wordpress.org/tag/hp-calendar\n"
-"POT-Creation-Date: 2013-10-10 10:19:55+00:00\n"
-"PO-Revision-Date: 2015-01-06 10:27:43+0000\n"
+"POT-Creation-Date: 2013-10-10 11:22:22+00:00\n"
+"PO-Revision-Date: 2015-01-06 10:38:07+0000\n"
 "Last-Translator: Paul Eller <teren@inno.ee>\n"
 "Language-Team: Innovaatik Grupp OÜ <info@inno.ee>\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Plural-Forms: nplurals=3; plural=n%100/10==1 ? 2 : n%10==1 ? 0 : (n+9)%10>3 ? 2 : 1;\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
 "X-Generator: Poedit 1.5.7\n"
 "X-Poedit-Language: \n"
 "X-Poedit-Country: \n"
@@ -23,22 +23,22 @@ msgstr ""
 #: hp-calendar.php:18
 #@ hp-calendar
 msgid "YOUR API_KEY"
-msgstr "ВАШ API КЛЮЧ"
+msgstr "TEIE API VÕTI"
 
 #: hp-calendar.php:19
 #@ hp-calendar
 msgid "API HOST"
-msgstr "АДРЕС API"
+msgstr "API HOSTINIMI"
 
 #: hp-calendar.php:23
 #@ hp-calendar
 msgid "LINK TO YOUR LOGO"
-msgstr "ССЫЛКА НА ВАШЕ ЛОГО"
+msgstr "VIIDE TEIE LOGOLE"
 
 #: hp-calendar.php:162
 #@ hp-calendar
 msgid "Hammas Calendar Options"
-msgstr "Настройки Hammas Calendar"
+msgstr "Hammas Calendar'i seaded"
 
 #. translators: plugin header field 'Name'
 #: hp-calendar.php:0
@@ -51,99 +51,99 @@ msgstr "Hammas Calendar"
 #: hp-calendar.php:167
 #@ hp-calendar
 msgid "You do not have sufficient permissions to access this page."
-msgstr "У вас нет достаточно прав, чтобы иметь доступ к этой странице."
+msgstr "Te ei ole loa seda muuta"
 
 #: hp-calendar.php:182
 #@ hp-calendar
 msgid "API Key"
-msgstr "API ключ"
+msgstr "API võti"
 
 #: hp-calendar.php:186
 #: hp-calendar.php:195
 #@ hp-calendar
 msgid "This can be found in the Manager->Web dialog in Hammas."
-msgstr "Это можно найти в программе Hammas, в окне Juhataja -> Veeb."
+msgstr "Selle leiate \"Hambast\", paneelist Juhataja -> Veeb."
 
 #: hp-calendar.php:191
 #@ hp-calendar
 msgid "API Host"
-msgstr "Адрес API"
+msgstr "API hostinimi"
 
 #: hp-calendar.php:200
 #@ hp-calendar
 msgid "Company name"
-msgstr "Название фирмы"
+msgstr "Firma nimi"
 
 #: hp-calendar.php:204
 #@ hp-calendar
 msgid "The name of your company which will be shown in the footer."
-msgstr "Название вашей фирмы будет показано в нижнем колонтитуле."
+msgstr "Teie firma nime näidatakse jaluses."
 
 #: hp-calendar.php:209
 #@ hp-calendar
 msgid "Return URL"
-msgstr "URL возврата"
+msgstr "Tagasipöördumise URL"
 
 #: hp-calendar.php:213
 #@ hp-calendar
 msgid "This is the location where clients will be sent to after they finish booking/managing appointments."
-msgstr "Сюда будут направлены клиенты, когда они закончат бронировать или редактировать свои визиты."
+msgstr "Siia saadetakse kliente, kui nad on lõpetanud broneerimist/haldust."
 
 #: hp-calendar.php:218
 #@ hp-calendar
 msgid "Homepage URL"
-msgstr "URL домашней страницы"
+msgstr "Kodulehe URL"
 
 #: hp-calendar.php:222
 #@ hp-calendar
 msgid "This is where clients will be sent to when they click your logo in the header or your company name in the footer."
-msgstr "Сюда будут направлены клиенты, если они кликнут на ваше лого в верхнем колонтитуле или на название фирмы в нижнем."
+msgstr "Siia saadetakse kliente, kui nad klõpsuvad teie firma logod päises või firma nime jaluses."
 
 #: hp-calendar.php:227
 #@ hp-calendar
 msgid "Manage URL"
-msgstr "URL редактирования визитов "
+msgstr "Halduse URL"
 
 #: hp-calendar.php:231
 #@ hp-calendar
 msgid "Only change this if you have set up a better-looking rewrite or have created a page with the [hp-calendar-manage-redirect] shortcode."
-msgstr "Это можно менять только если вы настроили Rewrite или создали страницу с shortcode [hp-calendar-manage-redirect]."
+msgstr "Ainult muudake seda, kui olete seadistanud Rewrite'i või olete loodud lehte shortcode'iga [hp-calendar-manage-redirect]."
 
 #: hp-calendar.php:236
 #@ hp-calendar
 msgid "Logo URL"
-msgstr "URL лого"
+msgstr "Firma logo URL"
 
 #: hp-calendar.php:245
 #@ hp-calendar
 msgid "Language"
-msgstr "Язык"
+msgstr "Keel"
 
 #: hp-calendar.php:240
 #@ hp-calendar
 msgid "The location of your company logo which will be shown in the header (recommended height: 26px, will be scaled automatically)."
-msgstr "Ссылка на лого вашей фирмы, которое будет показано в верхнем колонтитуле (рекомендуемая высота: 26px, иные будут сжаты/растянуты)."
+msgstr "Viide teie firma logole, mida näidatakse päises (soovitatav kõrgus: 26px, teisi suurusi skaleeritakse)."
 
 #: hp-calendar.php:260
 #@ hp-calendar
 msgid "Use default style"
-msgstr "Использовать стиль по-умолчанию"
+msgstr "Kasuta vaikestiili"
 
 #: hp-calendar.php:264
 #@ hp-calendar
 msgid "Untick this if you have a custom stylesheet for the calendar."
-msgstr "Отключите, если у вас готов свой собственный стиль для календаря."
+msgstr "Võtke linnukese ära, kui teil on oma stiil valmis."
 
 #: hp-calendar.php:276
 #@ hp-calendar
 msgid "Settings"
-msgstr "Настройки"
+msgstr "Seaded"
 
 #. translators: plugin header field 'Description'
 #: hp-calendar.php:0
 #@ hp-calendar
 msgid "Hammas WordPress integration"
-msgstr "Интеграция Hammas и WordPress"
+msgstr "Hammase integreerimine WordPress'ile"
 
 #. translators: plugin header field 'Author'
 #: hp-calendar.php:0
@@ -166,14 +166,7 @@ msgstr ""
 #: hp-calendar.php:175
 #@ hp-calendar
 msgid "Use the <strong>[hp-calendar]</strong> shortcode to show the calendar. If needed use clinics attribute to choose which clinics are visible. Clinics need to be defined in comma-separated list of clinic IDs or names (I.e [hp-calendar clinics=\"1,2,ClinicName3,ClinicName4\"]).<br>Add  &lt;a href=\"<strong>[hp-calendar-manage-url]</strong>\"&gt; to show a link to the appointment managing interface. Use the <strong>[hp-calendar-manage-redirect]</strong> shortcode to redirect the user to the appointment managing interface."
-msgstr ""
-"Используйте shortcode <strong>[hp-calendar clinics=\"1,2,Название Клиники 3,"
-"НазваниеКлиники4\"]</strong>, чтобы показать календарь (опция clinics — "
-"список ID или названий клиник, которые вы хотите использовать) и &lt;a href="
-"\"<strong>[hp-calendar-manage]</strong>\"&gt;, чтобы показать ссылку на "
-"страницу редактирования визитов. Используйте shortcode <strong>[hp-calendar-"
-"manage-redirect]</strong>, чтобы перенаправить пользователя на страницу "
-"редактирования визитов."
+msgstr "Kalendri näitamiseks tuleb kasutada lühikoodi <strong>[hp-calendar]</strong>.  Kui kasutusel on mitu kliinikut ja soov on näidata neist ainult osi siis tuleks lisata \\\"clinics\\\" atribuut. Kliiniku ID-d või nimed tuled eraldada komadega (n.t [hp-calendar clinics=\"1,2,ClinicName3,ClinicName4\"]). <br> Viisitide haldamise lingi tekitamiseks tuleks lisada järgnev lühikood: &lt;a href=\"<strong>[hp-calendar-manage-url]</strong>\"&gt; .<br> Kasutaja automaatseks suunamiseks visiitide haldusesse tuleks kasutada lühikoodi <strong>[hp-calendar-manage-redirect]</strong>."
 
 #: hp-calendar.php:255
 #@ hp-calendar

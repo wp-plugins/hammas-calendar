@@ -2,7 +2,7 @@
 /* 
 Plugin Name: Hammas Calendar
 Description: Hammas WordPress integration
-Version: 1.2.8
+Version: 1.2.9
 Author: Innovaatik Grupp OÜ
 Author URI: http://www.innomed.ee
 
@@ -172,7 +172,7 @@ function HP_Calendar_options() {
 <div class="wrap">
 <h2><?php _e('Hammas Calendar', 'hp-calendar') ?></h2>
 <hr>
-<p><?php _e('Use the <strong>[hp-calendar clinics="1,2,ClinicName3,ClinicName4"]</strong> shortcode to show the calendar (the clinics attribute allows you to choose which clinics are shown; use comma-separated clinic IDs or names) and &lt;a href="<strong>[hp-calendar-manage-url]</strong>"&gt; to show a link to the appointment managing interface. Use the <strong>[hp-calendar-manage-redirect]</strong> shortcode to redirect the user to the appointment managing interface.', 'hp-calendar') ?></p>
+<p><?php _e('Use the <strong>[hp-calendar]</strong> shortcode to show the calendar. If needed use clinics attribute to choose which clinics are visible. Clinics need to be defined in comma-separated list of clinic IDs or names (I.e [hp-calendar clinics="1,2,ClinicName3,ClinicName4"]).<br>Add  &lt;a href="<strong>[hp-calendar-manage-url]</strong>"&gt; to show a link to the appointment managing interface. Use the <strong>[hp-calendar-manage-redirect]</strong> shortcode to redirect the user to the appointment managing interface.', 'hp-calendar') ?></p>
 <hr>
 <form method="post" action="options.php">
   <?php settings_fields('hp-calendar-group'); ?>
