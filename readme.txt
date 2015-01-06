@@ -21,7 +21,7 @@ using Estonian ID card or Estonian mobile-ID service. For more information about
 1. Upload folder including all files and sub directories to the `/wp-content/plugins/` directory.
 1. Activate the plugin through the 'Plugins' menu in WordPress
 1. Open the plugin settings and fill out the empty fields. If there is any fields you don't have correct value for please contact with Hammas support.  
-1. Place tags into page content to activate the plugin. `(e.g [hp-calendar clinics="1,2,4"])`
+1. Place tags into page content to activate the plugin. `(e.g [hp-calendar])`
 1. FYI: There is additional information on the plugins configuration page. 
 
 == Frequently Asked Questions ==
