@@ -2,7 +2,7 @@
 /* 
 Plugin Name: Hammas Calendar
 Description: Hammas WordPress integration
-Version: 1.2.9
+Version: 1.3.0
 Author: Innovaatik Grupp OÜ
 Author URI: http://www.innomed.ee
 
@@ -44,12 +44,18 @@ function HP_Calendar_display_calendar($atts) {
   HP_Calendar_registerScripts();
   ob_start();  
   $atts = shortcode_atts(array(
-		'clinics' => ''
+        'clinics' => '',
+        'default_service' => ''
 	), $atts);
 
 ?>
   <div class="hp-calendar-container">
-    <div class="hp-calendar" data-clinics="<?php echo $atts['clinics'] ?>">
+    <?php
+        printf("<div class=\"hp-calendar\" data-clinics=\"%s\" data-default_service=\"%s\">", 
+            $atts['clinics'], 
+            $atts['default_service'] 
+            );
+    ?>
     </div>
     <div class="hp-calendar-info">
     </div>
