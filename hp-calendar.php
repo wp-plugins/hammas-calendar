@@ -178,7 +178,14 @@ function HP_Calendar_options() {
 <div class="wrap">
 <h2><?php _e('Hammas Calendar', 'hp-calendar') ?></h2>
 <hr>
-<p><?php _e('Use the <strong>[hp-calendar]</strong> shortcode to show the calendar. If needed use clinics attribute to choose which clinics are visible. Clinics need to be defined in comma-separated list of clinic IDs or names (I.e [hp-calendar clinics="1,2,ClinicName3,ClinicName4"]).<br>Add  &lt;a href="<strong>[hp-calendar-manage-url]</strong>"&gt; to show a link to the appointment managing interface. Use the <strong>[hp-calendar-manage-redirect]</strong> shortcode to redirect the user to the appointment managing interface.', 'hp-calendar') ?></p>
+<p>
+    <?php _e('Use the <strong>[hp-calendar]</strong> shortcode to show the calendar. If needed use clinics attribute to choose '
+    . 'which clinics are visible. Clinics need to be defined in comma-separated list of clinic IDs or names (I.e [hp-calendar clinics="1,2,ClinicName3,ClinicName4"]).'
+    . 'Also to auto-select a default service you can set up default_service attribute. It can take one or more service codes as input.'
+    . '(I.e [hp-calendar default_service="1002,3,4"]).'
+    . '<br>Add  &lt;a href="<strong>[hp-calendar-manage-url]</strong>"&gt; to show a link to the appointment managing interface. '
+    . 'Use the <strong>[hp-calendar-manage-redirect]</strong> shortcode to redirect the user to the appointment managing interface.', 'hp-calendar') ?>
+</p>
 <hr>
 <form method="post" action="options.php">
   <?php settings_fields('hp-calendar-group'); ?>
