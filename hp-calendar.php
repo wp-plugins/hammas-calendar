@@ -2,16 +2,17 @@
 /* 
 Plugin Name: Hammas Calendar
 Description: Hammas WordPress integration
-Version: 1.3.1
+Version: 1.3.2
 Author: Innovaatik Grupp OÜ
 Author URI: http://www.innomed.ee
 
 Text Domain:   hp-calendar
 Domain Path:   /lang/
 */
-
+define('HP_PLUGIN_VERSION', '1.3.2');
 define('HP_CALENDAR_SCRIPT', '/js/hp-calendar-min.js'); 
 define('HP_CALENDAR_STYLE', '/css/hp-calendar-min.css'); 
+define('HP_MANAGE_URL',  admin_url('admin-ajax.php') . '?action=hp_calendar_request&request=manage');
 
 register_activation_hook(__FILE__, 'HP_Calendar_activate');
 function HP_Calendar_activate() {
@@ -51,9 +52,10 @@ function HP_Calendar_display_calendar($atts) {
 ?>
   <div class="hp-calendar-container">
     <?php
-        printf("<div class=\"hp-calendar\" data-clinics=\"%s\" data-default_service=\"%s\">", 
+        printf("<div class=\"hp-calendar\" data-clinics=\"%s\" data-default_service=\"%s\" data-metainfo=\"%s\">", 
             $atts['clinics'], 
-            $atts['default_service'] 
+            $atts['default_service'],
+            base64_encode( HP_PLUGIN_VERSION )      
             );
     ?>
     </div>
@@ -70,7 +72,10 @@ function HP_Calendar_display_calendar($atts) {
 
 add_shortcode('hp-calendar-manage-url', 'HP_Calendar_manage_url');
 function HP_Calendar_manage_url($atts) {
-  return get_option('hp_calendar_manage');
+	if( trim(get_option('hp_calendar_manage')) == "" )
+		return HP_MANAGE_URL;
+	else 
+		return get_option('hp_calendar_manage');
 }
 
 add_shortcode('hp-calendar-manage-redirect', 'HP_Calendar_manage_redirect');
@@ -123,7 +128,7 @@ function HP_Calendar_handleRequest() {
 		$request['logo'] = get_option('hp_calendar_logo');
     $request['company'] = get_option('hp_calendar_company');
     $request['homepage'] = get_option('hp_calendar_homepage');
-    $request['manage'] = get_option('hp_calendar_manage');
+    $request['manage'] = trim(get_option('hp_calendar_manage')) == "" ? HP_MANAGE_URL : get_option('hp_calendar_manage');
   }
   $header = 'Content-Type: application/json' . PHP_EOL;
   $ref = (empty($_SERVER['HTTPS']) ? 'http://' : 'https://') . $_SERVER['HTTP_HOST'];
